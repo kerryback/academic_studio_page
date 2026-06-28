@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Academic Studio"
+  search: false
+  navbar: false
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: superhero
+    toc: true
