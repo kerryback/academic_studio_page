@@ -6,7 +6,7 @@
 
 [Jump to Downloads &darr;](#downloads)
 
-Academic Studio is a bundle of Claude Code, a file browser, a file viewer and editor, and a simplified install method for supporting software.  It is designed for business professionals, students, faculty, and researchers. A paid Anthropic account (Pro, Max, or API) is required to use Claude Code.  Enter /login in the prompt window on first use to connect to your Anthropic account.
+Academic Studio is a bundle of Claude Code, a file browser, a file viewer and editor, and a simplified install method for supporting software.  It is designed for business professionals, students, faculty, and researchers. A paid Anthropic account (Pro, Max, or API) is required to use Claude Code.  Enter `/login` in the prompt window on first use to connect to your Anthropic account.
 
 
 ## Features
@@ -37,10 +37,10 @@ Under the hood Academic Studio is VS Code (via the open-source VSCodium), so it 
 
 ## Downloads {#downloads}
 
-Download Academic Studio for your platform below. On first startup, if your computer is not already logged in to Anthropic, enter `/login` in the Claude prompt window to begin.
 
-- [macOS (Apple Silicon)](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-macos-arm64.dmg) --- `.dmg` (Apple Silicon only; does not run on older Macs with Intel chips)
-- [Windows](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-x64-Setup.exe) --- `.exe` (for most Windows computers)
-- [Windows ARM](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-arm64-Setup.exe) --- `.exe` (for Microsoft Surface Pro laptops and other Windows ARM computers)
+
+- [macOS (Apple Silicon)](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-macos-arm64.dmg) --- Apple Silicon only; does not run on older Macs with Intel chips
+- [Windows](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-x64-Setup.exe) --- for most Windows computers
+- [Windows ARM](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-arm64-Setup.exe) --- Microsoft Surface Pro laptops and other Windows ARM computers
 
 All releases are available on the [GitHub Releases page](https://github.com/kerryback/academic_studio/releases).
