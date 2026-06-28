@@ -25,6 +25,6 @@
     "href": "index.html#downloads",
     "title": "Academic Studio",
     "section": "Downloads",
-    "text": "Downloads\nDownload Academic Studio for your platform below. On first startup, if your computer is not already logged in to Anthropic, enter /login in the Claude prompt window to begin.\n\nmacOS (Apple Silicon) — .dmg (Apple Silicon only; does not run on older Macs with Intel chips)\nWindows — .exe (for most Windows computers)\nWindows ARM — .exe (for Microsoft Surface Pro laptops and other Windows ARM computers)\n\nAll releases are available on the GitHub Releases page."
+    "text": "Downloads\n\nmacOS (Apple Silicon) — Apple Silicon only; does not run on older Macs with Intel chips\nWindows — for most Windows computers\nWindows ARM — Microsoft Surface Pro laptops and other Windows ARM computers\n\nAll releases are available on the GitHub Releases page."
   }
 ]
