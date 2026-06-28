@@ -237,13 +237,10 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#academic-studio" id="toc-academic-studio" class="nav-link active" data-scroll-target="#academic-studio">Academic Studio</a>
   <ul class="collapse">
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a>
-  <ul class="collapse">
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a></li>
-  </ul></li>
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
   <li><a href="#compared-to-claude-desktop" id="toc-compared-to-claude-desktop" class="nav-link" data-scroll-target="#compared-to-claude-desktop">Compared to Claude Desktop</a></li>
   <li><a href="#compared-to-vs-code" id="toc-compared-to-vs-code" class="nav-link" data-scroll-target="#compared-to-vs-code">Compared to VS Code</a></li>
-  <li><a href="#tips" id="toc-tips" class="nav-link" data-scroll-target="#tips">Tips</a></li>
+  <li><a href="#downloads" id="toc-downloads" class="nav-link" data-scroll-target="#downloads">Downloads</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -255,55 +252,49 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div style="text-align: center;">
+<p><img src="academic-studio.png" class="img-fluid" width="160"></p>
+</div>
 <section id="academic-studio" class="level1">
 <h1>Academic Studio</h1>
-<p>Academic Studio is a bundle of Claude Code, a file browser, a file viewer and editor, and a simplified install method for extensions and supporting software that are especially useful for business professionals, students, and teachers. Claude Code launches on startup.</p>
-<p>On first startup, if your computer is not already logged in to Anthropic, you should enter <code>/login</code> in the Claude prompt window to initiate the login process. Open this guide any time from Help → Academic Studio Help.</p>
+<p><a href="#downloads">Jump to Downloads ↓</a></p>
+<p>Academic Studio is a bundle of Claude Code, a file browser, a file viewer and editor, and a simplified install method for supporting software. It is designed for business professionals, students, faculty, and researchers. A paid Anthropic account (Pro, Max, or API) is required to use Claude Code. Enter /login in the prompt window on first use to connect to your Anthropic account.</p>
 <section id="features" class="level2">
 <h2 class="anchored" data-anchor-id="features">Features</h2>
 <ul>
 <li>Claude Code, built in. The Claude Code assistant opens automatically and works alongside your files. Ask it to write, analyze data, build slides, or create documents.</li>
-<li>Real documents. Claude can create and edit Excel, Word, PowerPoint, PDF, LaTeX, and Quarto files using its document skills — ask for “a budget spreadsheet” or “a 10-slide deck” and you get an actual file you can open and share.</li>
+<li>Real documents. Claude can create and edit Excel, Word, PowerPoint, PDF, LaTeX, and Quarto files using its document skills.</li>
 <li>A workspace, not just a chat. Open a folder and your files and your conversation history live with that project — your work persists.</li>
-<li>Python, Jupyter, R, LaTeX, Quarto. Bundled support for data analysis, notebooks, statistics, typesetting, and HTML document creation.</li>
-<li>Slides with Quarto + reveal.js. Write a <code>.qmd</code> file with <code>format: revealjs</code>; Claude is great at these, and the plain text stays easy to edit afterward.</li>
+<li>Python, Jupyter, R, LaTeX, Quarto are bundled to support data analysis, notebooks, statistics, typesetting, and HTML document creation.</li>
 <li>One-stop setup. Help → Run Setup… lets you pick your profile (Faculty or Students &amp; Professionals), choose which extensions are active, and install supporting programs (Python, Node.js, Quarto, R, TinyTeX) with one click.</li>
 <li>Installation of important Python libraries: the scientific stack plus libraries to create Office documents.</li>
 </ul>
-<section id="getting-started" class="level3">
-<h3 class="anchored" data-anchor-id="getting-started">Getting started</h3>
-<ol type="1">
-<li>Open a folder: File → Open Folder… — your files appear in the Explorer on the left.</li>
-<li>Talk to Claude in the panel that opens on startup — ask it to create a file, write some code, or build a document.</li>
-<li>Files save automatically a moment after you stop typing.</li>
-</ol>
-</section>
 </section>
 <section id="compared-to-claude-desktop" class="level2">
 <h2 class="anchored" data-anchor-id="compared-to-claude-desktop">Compared to Claude Desktop</h2>
-<p>Academic Studio runs Claude Code like the Code mode of Claude Desktop. The principal benefits for business professionals and students of Academic Studio relative to Claude Desktop Code are the integrated file browser and file viewer/editor and the one-stop install of Python and Node.js.</p>
+<p>Academic Studio runs Claude Code like the Code mode of Claude Desktop. The principal benefits of Academic Studio relative to Claude Desktop Code for business professionals and students are the integrated file browser and file viewer/editor and the one-stop installation of Python and Node.js.</p>
 <p>For faculty and researchers, the one-click run/build for LaTeX, Quarto, Python, R, and Jupyter are the most important benefits.</p>
-<p>Unlike Claude Desktop, Academic Studio does not use point-and-click to install skills, MCP connectors, and plugins. However, there is an easier method — just ask Claude to install them.</p>
 </section>
 <section id="compared-to-vs-code" class="level2">
 <h2 class="anchored" data-anchor-id="compared-to-vs-code">Compared to VS Code</h2>
 <p>Under the hood Academic Studio is VS Code (via the open-source VSCodium), so it will feel familiar if you’ve used VS Code — but it’s simplified for getting work done:</p>
 <ul>
 <li>Menus and toolbars are trimmed, with beginner-friendly defaults.</li>
-<li>Files auto-save a second after you stop typing (auto-save is off by default in standard VS Code).</li>
-<li>Claude Code is built in and opens on startup.</li>
+<li>Files are auto-save a second after you stop typing (auto-save is off by default in standard VS Code).</li>
+<li>Claude Code is built-in and opens on startup.</li>
 <li>One-stop installation for important tools — Office Viewer, PDF, Quarto, Python, Jupyter, R, LaTeX — so there’s no hunting for extensions.</li>
 <li>Help → Run Setup… installs the supporting programs (Python, Quarto, R, TinyTeX, Node.js) for you.</li>
-<li>No telemetry and no Copilot; extensions come from the open <a href="https://open-vsx.org">Open VSX</a> registry.</li>
 </ul>
 </section>
-<section id="tips" class="level2">
-<h2 class="anchored" data-anchor-id="tips">Tips</h2>
+<section id="downloads" class="level2">
+<h2 class="anchored" data-anchor-id="downloads">Downloads</h2>
+<p>Download Academic Studio for your platform below. On first startup, if your computer is not already logged in to Anthropic, enter <code>/login</code> in the Claude prompt window to begin.</p>
 <ul>
-<li>Command Palette (every command): press F1.</li>
-<li>Re-run setup any time from Help → Run Setup… to change your extensions or install more programs.</li>
-<li>R IntelliSense needs the R <code>languageserver</code> package: install R, then run <code>install.packages("languageserver")</code> in R.</li>
+<li><a href="https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-macos-arm64.dmg">macOS (Apple Silicon)</a> — <code>.dmg</code> (Apple Silicon only; does not run on older Macs with Intel chips)</li>
+<li><a href="https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-x64-Setup.exe">Windows</a> — <code>.exe</code> (for most Windows computers)</li>
+<li><a href="https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-arm64-Setup.exe">Windows ARM</a> — <code>.exe</code> (for Microsoft Surface Pro laptops and other Windows ARM computers)</li>
 </ul>
+<p>All releases are available on the <a href="https://github.com/kerryback/academic_studio/releases">GitHub Releases page</a>.</p>
 
 
 </section>
@@ -724,6 +715,13 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<hr>
+<div style="text-align: center; font-size: 0.9em; padding-top: 1em;">
+Kerry Back<br>
+J. Howard Creekmore Professor of Finance, Jones Graduate School of Business<br>
+Professor of Economics, School of Social Sciences<br>
+Rice University
+</div>
 
 
 
