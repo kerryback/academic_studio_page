@@ -14,13 +14,13 @@ Academic Studio is a bundle of Claude Code, a file browser, a file viewer and ed
 - Claude Code, built in. The Claude Code assistant opens automatically and works alongside your files. Ask it to write, analyze data, build slides, or create documents.
 - Real documents. Claude can create and edit Excel, Word, PowerPoint, PDF, LaTeX, and Quarto files using its document skills.
 - A workspace, not just a chat. Open a folder and your files and your conversation history live with that project --- your work persists.
-- Python, Jupyter, R, LaTeX, Quarto are bundled to support data analysis, notebooks, statistics, typesetting, and HTML document creation.
-- One-stop setup. Help → Run Setup… lets you pick your profile (Faculty or Students & Professionals), choose which extensions are active, and install supporting programs (Python, Node.js, Quarto, R, TinyTeX) with one click.
-- Installation of important Python libraries: the scientific stack plus libraries to create Office documents.
+- Use - or have Claude use - Python, Jupyter, R, LaTeX, and Quarto for data analysis, statistics, typesetting, and HTML document creation.
+- Easy setup. Help → Run Setup… lets you pick your profile (Faculty or Students & Professionals), and install supporting programs (Python, Node.js, Quarto, R, TinyTeX) and extensions with one click.
+- Key Python libraries - the scientific stack and libraries to create Office documents - are installed along with Python.
 
 ## Compared to Claude Desktop
 
-Academic Studio runs Claude Code like the Code mode of Claude Desktop. The principal benefits of Academic Studio relative to Claude Desktop Code for business professionals and students are the integrated file browser and file viewer/editor and the one-stop installation of Python and Node.js.
+Academic Studio runs Claude Code like the Code mode of Claude Desktop. The principal benefits of Academic Studio relative to Claude Desktop Code for business professionals and students are the integrated file browser and file viewer/editor and the easy installation of Python and Node.js.
 
 For faculty and researchers, the one-click run/build for LaTeX, Quarto, Python, R, and Jupyter are the most important benefits.
 
@@ -29,17 +29,15 @@ For faculty and researchers, the one-click run/build for LaTeX, Quarto, Python, 
 Under the hood Academic Studio is VS Code (via the open-source VSCodium), so it will feel familiar if you've used VS Code --- but it's simplified for getting work done:
 
 - Menus and toolbars are trimmed, with beginner-friendly defaults.
-- Files are auto-save a second after you stop typing (auto-save is off by default in standard VS Code).
 - Claude Code is built-in and opens on startup.
-- One-stop installation for important tools --- Office Viewer, PDF, Quarto, Python, Jupyter, R, LaTeX --- so there's no hunting for extensions.
-- Help → Run Setup… installs the supporting programs (Python, Quarto, R, TinyTeX, Node.js) for you.
+- Easy installation of important tools --- Office Viewer, PDF, Quarto, Python, Jupyter, R, LaTeX, Node.js.
 
 
 ## Downloads {#downloads}
 
 
 
-- [macOS (Apple Silicon)](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-macos-arm64.dmg) --- Apple Silicon only; does not run on older Macs with Intel chips
+- [macOS (Apple Silicon)](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-macos-arm64.dmg) --- M1 or later; does not run on older Macs with Intel chips
 - [Windows](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-x64-Setup.exe) --- for most Windows computers
 - [Windows ARM](https://github.com/kerryback/academic_studio/releases/latest/download/Academic-Studio-windows-arm64-Setup.exe) --- Microsoft Surface Pro laptops and other Windows ARM computers
 

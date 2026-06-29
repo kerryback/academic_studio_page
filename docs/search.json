@@ -4,27 +4,27 @@
     "href": "index.html#features",
     "title": "Academic Studio",
     "section": "Features",
-    "text": "Features\n\nClaude Code, built in. The Claude Code assistant opens automatically and works alongside your files. Ask it to write, analyze data, build slides, or create documents.\nReal documents. Claude can create and edit Excel, Word, PowerPoint, PDF, LaTeX, and Quarto files using its document skills.\nA workspace, not just a chat. Open a folder and your files and your conversation history live with that project — your work persists.\nPython, Jupyter, R, LaTeX, Quarto are bundled to support data analysis, notebooks, statistics, typesetting, and HTML document creation.\nOne-stop setup. Help → Run Setup… lets you pick your profile (Faculty or Students & Professionals), choose which extensions are active, and install supporting programs (Python, Node.js, Quarto, R, TinyTeX) with one click.\nInstallation of important Python libraries: the scientific stack plus libraries to create Office documents."
+    "text": "Features\n\nClaude Code, built in. The Claude Code assistant opens automatically and works alongside your files. Ask it to write, analyze data, build slides, or create documents.\nReal documents. Claude can create and edit Excel, Word, PowerPoint, PDF, LaTeX, and Quarto files using its document skills.\nA workspace, not just a chat. Open a folder and your files and your conversation history live with that project — your work persists.\nUse - or have Claude use - Python, Jupyter, R, LaTeX, and Quarto for data analysis, statistics, typesetting, and HTML document creation.\nEasy setup. Help → Run Setup… lets you pick your profile (Faculty or Students & Professionals), and install supporting programs (Python, Node.js, Quarto, R, TinyTeX) and extensions with one click.\nKey Python libraries - the scientific stack and libraries to create Office documents - are installed along with Python."
   },
   {
     "objectID": "index.html#compared-to-claude-desktop",
     "href": "index.html#compared-to-claude-desktop",
     "title": "Academic Studio",
     "section": "Compared to Claude Desktop",
-    "text": "Compared to Claude Desktop\nAcademic Studio runs Claude Code like the Code mode of Claude Desktop. The principal benefits of Academic Studio relative to Claude Desktop Code for business professionals and students are the integrated file browser and file viewer/editor and the one-stop installation of Python and Node.js.\nFor faculty and researchers, the one-click run/build for LaTeX, Quarto, Python, R, and Jupyter are the most important benefits."
+    "text": "Compared to Claude Desktop\nAcademic Studio runs Claude Code like the Code mode of Claude Desktop. The principal benefits of Academic Studio relative to Claude Desktop Code for business professionals and students are the integrated file browser and file viewer/editor and the easy installation of Python and Node.js.\nFor faculty and researchers, the one-click run/build for LaTeX, Quarto, Python, R, and Jupyter are the most important benefits."
   },
   {
     "objectID": "index.html#compared-to-vs-code",
     "href": "index.html#compared-to-vs-code",
     "title": "Academic Studio",
     "section": "Compared to VS Code",
-    "text": "Compared to VS Code\nUnder the hood Academic Studio is VS Code (via the open-source VSCodium), so it will feel familiar if you’ve used VS Code — but it’s simplified for getting work done:\n\nMenus and toolbars are trimmed, with beginner-friendly defaults.\nFiles are auto-save a second after you stop typing (auto-save is off by default in standard VS Code).\nClaude Code is built-in and opens on startup.\nOne-stop installation for important tools — Office Viewer, PDF, Quarto, Python, Jupyter, R, LaTeX — so there’s no hunting for extensions.\nHelp → Run Setup… installs the supporting programs (Python, Quarto, R, TinyTeX, Node.js) for you."
+    "text": "Compared to VS Code\nUnder the hood Academic Studio is VS Code (via the open-source VSCodium), so it will feel familiar if you’ve used VS Code — but it’s simplified for getting work done:\n\nMenus and toolbars are trimmed, with beginner-friendly defaults.\nClaude Code is built-in and opens on startup.\nEasy installation of important tools — Office Viewer, PDF, Quarto, Python, Jupyter, R, LaTeX, Node.js."
   },
   {
     "objectID": "index.html#downloads",
     "href": "index.html#downloads",
     "title": "Academic Studio",
     "section": "Downloads",
-    "text": "Downloads\n\nmacOS (Apple Silicon) — Apple Silicon only; does not run on older Macs with Intel chips\nWindows — for most Windows computers\nWindows ARM — Microsoft Surface Pro laptops and other Windows ARM computers\n\nAll releases are available on the GitHub Releases page."
+    "text": "Downloads\n\nmacOS (Apple Silicon) — M1 or later; does not run on older Macs with Intel chips\nWindows — for most Windows computers\nWindows ARM — Microsoft Surface Pro laptops and other Windows ARM computers\n\nAll releases are available on the GitHub Releases page."
   }
 ]
